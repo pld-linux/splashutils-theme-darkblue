@@ -5,7 +5,7 @@ Summary:	Splashutils - darkblue theme
 Summary(pl):	Splashutils - motyw darkblue
 Name:		splashutils-theme-%{theme}
 Version:	1
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Themes
 Source0:	%{name}-%{version}.tar.gz
