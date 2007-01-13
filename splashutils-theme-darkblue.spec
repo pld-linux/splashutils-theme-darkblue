@@ -14,6 +14,8 @@ Requires:	splashutils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_sysconfdir	/etc/splash
+
 %description
 Darkblue PLD theme for splashutils.
 
@@ -26,7 +28,7 @@ Motyw PLD darkblue do splashutils.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-THEME_DIR=$RPM_BUILD_ROOT%{_sysconfdir}/splash/%{theme}
+THEME_DIR=$RPM_BUILD_ROOT%{_sysconfdir}/%{theme}
 
 install -d $THEME_DIR/images
 install %{theme}/*.cfg $THEME_DIR
@@ -37,4 +39,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_sysconfdir}/splash/%{theme}
+%{_sysconfdir}/%{theme}
