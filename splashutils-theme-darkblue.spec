@@ -2,7 +2,7 @@
 %define		theme	darkblue
 
 Summary:	Splashutils - darkblue theme
-Summary(pl.UTF-8):   Splashutils - motyw darkblue
+Summary(pl.UTF-8):	Splashutils - motyw darkblue
 Name:		splashutils-theme-%{theme}
 Version:	1
 Release:	2
