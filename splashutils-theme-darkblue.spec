@@ -2,7 +2,7 @@
 %define		theme	darkblue
 
 Summary:	Splashutils - darkblue theme
-Summary(pl):	Splashutils - motyw darkblue
+Summary(pl.UTF-8):   Splashutils - motyw darkblue
 Name:		splashutils-theme-%{theme}
 Version:	1
 Release:	2
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Darkblue PLD theme for splashutils.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw PLD darkblue do splashutils.
 
 %prep
