@@ -1,6 +1,4 @@
-
 %define		theme	darkblue
-
 Summary:	Splashutils - darkblue theme
 Summary(pl.UTF-8):	Splashutils - motyw darkblue
 Name:		splashutils-theme-%{theme}
@@ -12,6 +10,7 @@ Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	5ec4f2d564d6940a41c9b546743bfb8d
 Requires:	splashutils
 Provides:	fbsplash-theme
+Provides:	splash-theme
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
